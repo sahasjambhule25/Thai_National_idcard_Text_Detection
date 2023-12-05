@@ -10,7 +10,7 @@
     </ul>
 <h2 id="architecture">Architecture</h2>
 <h3>2D Architecture Diagram</h3>
-<p>This diagram involves</p>
+<p>This diagram involves the basic architecture of application</p>
 <img src="https://www.seobility.net/en/wiki/images/thumb/0/04/Frontend-vs-Backend.png/675px-Frontend-vs-Backend.png" alt="2D Architecture Diagram">
 <p>
   <strong>Frontend (Client):</strong>
@@ -87,9 +87,9 @@
 <h2 id="output">Output</h2>
 <ul>
     <li><p>Main Web page</p><img src="./output_images/Thai_Id_Card_Main_Page.png" alt="2D Architecture Diagram"></li>   
-    <li><p>Read Web page </p><img src="./output_images/Read_Data_Response.png" alt="2D Architecture Diagram"></li>  
-    <li><p>Create Web page</p><img src="./output_images/Id_Card_details.png" alt="2D Architecture Diagram"></li>  
-    <li><p>Delete Web page</p><img src="./output_images/Delete_Data.png" alt="2D Architecture Diagram"></li>  
-    <li><p>Update Web page</p><img src="./output_images/Update_Data.png" alt="2D Architecture Diagram"></li>  
+    <li><p>Read operation Web page </p><img src="./output_images/Read_Data_Response.png" alt="2D Architecture Diagram"></li>  
+    <li><p>Create operation Web page</p><img src="./output_images/Id_Card_details.png" alt="2D Architecture Diagram"></li>  
+    <li><p>Delete operation Web page</p><img src="./output_images/Delete_Data.png" alt="2D Architecture Diagram"></li>  
+    <li><p>Update operation Web page</p><img src="./output_images/Update_Data.png" alt="2D Architecture Diagram"></li>  
 </ul>
 
