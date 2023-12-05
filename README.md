@@ -7,7 +7,6 @@
         <li><a href="#technologies">Technologies</a></li>
         <li><a href="#getting-started">Getting Started</a></li>
         <li><a href="#output">Output</a></li>
-        <li><a href="#usage">Usage</a></li>
     </ul>
 <h2 id="architecture">Architecture</h2>
 <h3>2D Architecture Diagram</h3>
@@ -93,11 +92,4 @@
     <li><p>Delete Web page</p><img src="./output_images/Delete_Data.png" alt="2D Architecture Diagram"></li>  
     <li><p>Update Web page</p><img src="./output_images/Update_Data.png" alt="2D Architecture Diagram"></li>  
 </ul>
-
-<h2 id="#usage">Usage</h2>
-    <ul>
-        <li>Sign in or sign up using email and password.</li>
-        <li>Alternatively, use the provided social login options with GitHub or Google.</li>
-        <li>Customize and expand the project as needed for your specific use case.</li>
-    </ul>
 
