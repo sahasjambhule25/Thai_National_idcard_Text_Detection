@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Data Entry</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .header {
+            text-align: center;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        .entry-block {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin: 10px;
+            width: 300px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            color: #333;
+        }
+
+        input {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 12px;
+            box-sizing: border-box;
+        }
+
+        button {
+            padding: 10px 20px;
+            background-color: #4caf50;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h2>ID CARD</h2>
+    </div>
+    <div class="entry-block">
+        <form action="/submit_data" method="post" enctype="application/x-www-form-urlencoded">
+            <label for="identificationNumber">Identification Number:</label>
+            <input type="text" id="identificationNumber" name="identification_number" required>
+
+            <label for="firstName">First Name:</label>
+            <input type="text" id="firstName" name="name" required>
+
+            <label for="lastName">Last Name:</label>
+            <input type="text" id="lastName" name="last_name" required>
+
+            <label for="dob">Date of Birth:</label>
+            <input type="text" id="dob" name="date_of_birth" required>
+
+            <label for="dateOfIssue">Date of Issue:</label>
+            <input type="text" id="dateOfIssue" name="date_of_issue" required>
+
+            <label for="dateOfExpiry">Date of Expiry:</label>
+            <input type="text" id="dateOfExpiry" name="date_of_expiry" required>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <script>
+        function submitData() {
+            // You can add JavaScript logic here to handle the submitted data
+            alert("Data submitted successfully!");
+        }
+    </script>
+</body>
+</html>
