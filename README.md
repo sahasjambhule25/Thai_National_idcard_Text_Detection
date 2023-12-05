@@ -5,6 +5,7 @@
         <li><a href="#architecture">Architecture</a></li>
         <li><a href="#features">Features</a></li>
         <li><a href="#technologies">Technologies</a></li>
+        <li><a href="#working">Working</a></li>
         <li><a href="#getting-started">Getting Started</a></li>
         <li><a href="#output">Output</a></li>
     </ul>
@@ -64,7 +65,13 @@
     <ul>
         <li>SQLite</li>
     </ul>
-
+<h2 id="working">Working</h2>
+<ul>
+    <li>Data Preprocessing:<p> Convert image to grascale for noice reduction</p><img src="./output_images/pre_process.png" alt="2D Architecture Diagram"></li>  
+    <li>Data Reading from Image:<p> Extract Data from Image using API</p><img src="./output_images/OCR.png" alt="2D Architecture Diagram"></li> 
+    <li>Data Cleaning:<p> Cleaning of data after extraction</p><img src="./output_images/clean.png" alt="2D Architecture Diagram"></li> 
+    <li>Data Extraction:<p> Extraction of relevent data after cleaning</p><img src="./output_images/extraction.png" alt="2D Architecture Diagram"></li> 
+</ul>
 <h2 id="#getting-started">Getting Started</h2>
     <ol>
         <li>Get to following link for starting project locally 
