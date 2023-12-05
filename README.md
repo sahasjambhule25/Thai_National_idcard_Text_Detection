@@ -1,6 +1,5 @@
 # Thai_National_idcard_Text_Detection
-Data extraction from Thai Id and Store it in DB enabling Curd operation
-<p>Welcome to the project! This project demonstrates a chain of functionality where 1. Data Extraction from Thai Id card, Data Cleaning and storing it to database followed bt CRUD operations</p>
+<p>Welcome to the project! This project demonstrates a chain of functionality where Data Extraction from Thai Id card, Data Cleaning and storing it to database followed bt CRUD operations</p>
 <h2>Table of Contents</h2>
     <ul>
         <li><a href="#architecture">Architecture</a></li>
