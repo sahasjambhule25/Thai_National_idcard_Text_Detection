@@ -73,13 +73,13 @@
         </li>
       <li> Download the zip and extrat it</li>
         <li>Install dependencies for  backend:
-<pre>pip install datefinder fastapi</pre>
+<pre>pip install database fastapi starlette starlette Database fastapi JSONResponse FastAPI File UploadFile HTTPException StaticFiles Request Jinja2Templates</pre>
         </li>
         <li>Start the frontend : Open index.html in templates folder
         <pre># In the project directory
      uvicorn main:app --reload</pre>
         </li>
-            <li>Access the application's Frontend at <a href="http://localhost:3001">http://localhost:3001</a> in your web browser.
+            <li>Access the application's Frontend at <a href="http://localhost:3001">by opening index.html file</a> in your web browser.
         <li>Access the application's Bakend at <a href="http://localhost:5000">http://localhost:8000</a> in your web browser.
         
 </li>
