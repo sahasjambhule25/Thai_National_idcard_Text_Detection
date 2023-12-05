@@ -7,8 +7,6 @@
         <li><a href="#technologies">Technologies</a></li>
         <li><a href="#getting-started">Getting Started</a></li>
         <li><a href="#usage">Usage</a></li>
-        <li><a href="#contributing">Contributing</a></li>
-        <li><a href="#license">License</a></li>
     </ul>
 <h2 id="architecture">Architecture</h2>
 <h3>2D Architecture Diagram</h3>
@@ -70,33 +68,19 @@
 <h2 id="#getting-started">Getting Started</h2>
     <ol>
         <li>Get to following link for starting project locally 
-            <pre>https://github.com/yourusername/sso_localrun</pre>
+            <pre>https://github.com/yourusername/Thai_National_idcard_Text_Detection
+</pre>
         </li>
       <li> Download the zip and extrat it</li>
-        <li>Install dependencies for both the frontend and backend:
-<pre>cd your-sso-project/frontend<br>npm install</pre>
-<pre>cd your-sso-project/backend<br>npm install</pre>
+        <li>Install dependencies for  backend:
+<pre>pip install datefinder fastapi</pre>
         </li>
-        <li>Set up environment variables for backend by creating a <code>.env</code> file in the backend directory and adding the
-            required configurations as follows</li>
-<pre>mongoURI=   your mongobd url
-port = 5000
-gitclientID= gitcliendidvalue
-gitclientSecret = gitclientSecretvalue
-gitcallbackURL = http://localhost:5000/auth/github/callback
-googleclientID= googleclientIDvalue
-googleclientSecret = googleclientSecretvalue
-googlecallbackURL = http://localhost:5000/auth/google/callback
-JWT_SECRET= secretkeyvalue
-frontend_url=http://localhost:3001</pre>
-        <li>Start the frontend and backend servers:
-            <pre># In the frontend directory
-npm start</pre>
-<pre># In the backend directory
-npm start</pre>
+        <li>Start the frontend : Open index.html in templates folder
+        <pre># In the project directory
+     uvicorn main:app --reload</pre>
         </li>
             <li>Access the application's Frontend at <a href="http://localhost:3001">http://localhost:3001</a> in your web browser.
-        <li>Access the application's Bakend at <a href="http://localhost:5000">http://localhost:5000</a> in your web browser.
+        <li>Access the application's Bakend at <a href="http://localhost:5000">http://localhost:8000</a> in your web browser.
         
 </li>
 </ol>
