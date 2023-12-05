@@ -21,7 +21,7 @@
  <li>User Interface (UI): Responsible for rendering the user interface and handling user interactions.</li>
  <li> Upload Image for OCR: Here image is uploaded to read data directly from Thai ID card image
  </li>
- <li> CRUD operations:
+ <li> CRUD operations: These operation involves the data management in database
  </li>
 </ul>
 
@@ -29,17 +29,17 @@
  <strong>Backend (Server):</strong>
 </p>
     <ul>
-        <li>API Endpoints: Offers various API endpoints for frontend communication, including user authentication and
+        <li>API Endpoints: Offers various API endpoints for frontend communication, including image reading using Google vision, data updatation, data deletion and 
             data retrieval.</li>
-        <li>Authentication (Passport.js): Implements user authentication strategies, including OAuth for social logins.
-        </li>
-        <li>Database (MongoDB, Redis): Utilizes MongoDB for data storage and Redis for session management.</li>
+        <li>OCR Image reading: Implementing Image reading using Google vision API  and extract data</li>
+        <li>Data Cleaning: This involves Data cleaning from extracted data       </li>
+        <li>Database (SQLite): Utilizes SQLite for data storage and associated operations.</li>
     </ul>
 
 <h2 id="#features">Features</h2>
     <ul>
-        <li>Secure user authentication using JWT tokens.</li>
-        <li>Social login options with GitHub and Google.</li>
+        <li>OCR Image reading</li>
+        <li>GUI which enables to perform CRUD operations</li>
     </ul>
 
 <h2 id="#technologies">Technologies</h2>
@@ -47,26 +47,24 @@
         <strong>Frontend:</strong>
 </p>
 <ul>
-        <li>React</li>
+        <li>HTML, CSS</li>
         <li>Bootstrap</li>
-        <li>React Router DOM</li>
 </ul>
 
 <p>
         <strong>Backend:</strong>
 </p>
     <ul>
-        <li>Node.js</li>
-        <li>Express.js</li>
-        <li>Passport.js</li>
+        <li>FAST API</li>
+        <li>Python (Data Cleaning)</li>
+        <li>Google Vision</li>
     </ul>
 
 <p>
         <strong>Databases:</strong>
 </p>
     <ul>
-        <li>MongoDB</li>
-        <li>Redis(needed for Dashboard where till now used cookie)</li>
+        <li>SQLite</li>
     </ul>
 
 <h2 id="#getting-started">Getting Started</h2>
