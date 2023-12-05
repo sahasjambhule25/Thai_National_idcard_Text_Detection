@@ -1,0 +1,1 @@
+# Thai_National_idcard_Text_Detection
