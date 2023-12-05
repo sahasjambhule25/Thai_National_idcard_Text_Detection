@@ -87,8 +87,8 @@
 </ol>
 <h2 id="output">Output</h2>
 <ul>
-    <li><p>Read Web page</p><img src="./output_images/Thai_Id_Card_Main_Page.png" alt="2D Architecture Diagram"></li>   
-    <li><p>Data extraction from Image after Data Cleaning </p><img src="./output_images/Read_Data_Response.png" alt="2D Architecture Diagram"></li>  
+    <li><p>Main Web page</p><img src="./output_images/Thai_Id_Card_Main_Page.png" alt="2D Architecture Diagram"></li>   
+    <li><p>Read Web page </p><img src="./output_images/Read_Data_Response.png" alt="2D Architecture Diagram"></li>  
     <li><p>Create Web page</p><img src="./output_images/Id_Card_details.png" alt="2D Architecture Diagram"></li>  
     <li><p>Delete Web page</p><img src="./output_images/Delete_Data.png" alt="2D Architecture Diagram"></li>  
     <li><p>Update Web page</p><img src="./output_images/Update_Data.png" alt="2D Architecture Diagram"></li>  
