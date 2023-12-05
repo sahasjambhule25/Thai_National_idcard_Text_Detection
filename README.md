@@ -87,7 +87,7 @@
 </ol>
 <h2 id="output">Output</h2>
 <ul>
-    <li><p>Thai National Id Card</p><img src="./" alt="2D Architecture Diagram"></li>    
+    <li><p>Thai National Id Card</p><img src="./output_images/Thai_Id_Card_Main_Page" alt="2D Architecture Diagram"></li>    
 </ul>
 
 <h2 id="#usage">Usage</h2>
