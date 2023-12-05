@@ -6,6 +6,7 @@
         <li><a href="#features">Features</a></li>
         <li><a href="#technologies">Technologies</a></li>
         <li><a href="#getting-started">Getting Started</a></li>
+        <li><a href="#output">Output</a></li>
         <li><a href="#usage">Usage</a></li>
     </ul>
 <h2 id="architecture">Architecture</h2>
@@ -84,6 +85,10 @@
         
 </li>
 </ol>
+<h2 id="output">Output</h2>
+<ul>
+    <li><p>Thai National Id Card</p><img src="./" alt="2D Architecture Diagram"></li>    
+</ul>
 
 <h2 id="#usage">Usage</h2>
     <ul>
